@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e  # Arrête l'exécution si une commande échoue
+
+# Met à jour pip, setuptools, et wheel (au cas où)
+pip install --upgrade pip setuptools wheel
+
+# Installe Cython (si ce n'est pas déjà fait, cela garantit qu'il est présent)
+pip install Cython==3.0.8
+
+# Affiche les versions pour déboguer (facultatif)
+python --version
+pip --version
