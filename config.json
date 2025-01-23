@@ -1,0 +1,33 @@
+{
+    "alpaca_api_key": "PK66CJ8R0CHOKOJK89YS",
+    "alpaca_api_secret": "4D2Wc10XtQyiq75JTJIVeLwY8yygqMKBdhLZpEZT",
+    "email_user": "karima.ecomerce@gmail.com",
+    "email_pass": "Kima91@@",
+    "email_receiver": "zeymaty56@gmail.com",
+    "discord_webhook": "https://discord.com/api/webhooks/1329729401738235905/lVXSpQ5pLUcE4LiXOlAiFSjsydbW4zTlejqShZ57UqM74u7EFeT_BO9YMXV57AIRn-Tu",
+    "symbols": [
+        "AAPL",
+        "MSFT",
+        "GOOG",
+        "AMZN",
+        "TSLA",
+        "BTC",
+        "ETH"
+    ],
+    "rsi_period": 14,
+    "rsi_overbought": 70,
+    "rsi_oversold": 30,
+    "bollinger_period": 20,
+    "bollinger_std": 2,
+    "period": "5d",
+    "interval": "1m",
+    "notification_types": [
+        "email",
+        "desktop",
+        "discord"
+    ],
+    "alpaca_paper": true,
+    "trade_percentage": 0.01,
+    "stop_loss_percentage": "0.02",
+    "take_profit_percentage": "0.03"
+}
